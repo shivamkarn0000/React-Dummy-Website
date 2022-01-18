@@ -1,0 +1,74 @@
+
+.first-card-container{
+    display: flex;
+    border: 2px solid #dcdcdc;
+    padding: 4px;
+    margin-bottom: 27px;
+}
+
+.first-card-img{
+    height: 178px;
+
+}
+.first-card-fist-p-main{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-top: -10px;
+}
+.first-card-fist-p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #222222;
+
+}
+.first-card-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 8px;
+}
+.first-card-second-p{
+    font-size: 15px;
+    color: #0d6efd;
+
+}
+.first-card-facebook-img-main{
+    height:40px ;
+}
+.first-card-twiiter-img-main{
+    height:40px ;
+}
+.first-card-img-main{
+    display: flex;
+    align-items: center;
+}
+
+.first-card-third-p-second-third{
+    font-size: 14px;
+}
+
+.first-card-second-third{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.first-card-img-main-second-third{
+    margin-bottom: 10px;
+}
+
+.first-card-google-img-main{
+    height: 45px;
+    margin-right: 10px;
+}
+
+.first-card-appstore-img-main{
+    height: 45px;
+}
+.first-card-container-margin{
+    margin-bottom: 0px;
+}

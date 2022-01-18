@@ -1,0 +1,113 @@
+.main-menu{
+ background-color: #0d6efd;
+}
+
+.sub-main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-second-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+.sub-second-menu:hover{
+    background-color: red;
+    transition: 0.2s;
+}
+.main-menu-icon{
+
+}
+
+.main-menu-ul{
+
+}
+
+.main-menu-li{
+ list-style: none;
+ color: white;
+ padding: 8px 15px;
+ cursor: pointer;
+}
+
+.main-menu-sub-icon{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: white;    
+}
+
+.menu-sub-down-arrow{
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.main-menu-sub-ul{
+    background-color: #0d6efd;
+    display: none;
+    position: absolute;
+    padding: 8px 0px;
+    margin: 9px -15px;
+}
+.main-menu-li .main-menu-sub-ul:hover{
+    transition: 0.5;
+}
+.main-menu-sub-li{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 8px 15px;
+    font-size: 15px;
+}
+
+.main-menu-sub-li:hover{
+    background-color: red;
+    color: white;
+}
+
+.sub-second-menu:hover .main-menu-sub-ul{
+   display: block;
+}
+.main-menu-sub-ul:hover{
+    transition: 0.5s;
+}
+.main-menu-sub-under-li{
+   
+}
+.main-menu-sub-under-li:hover .main-menu-sub-li-under-li{
+  display: block;
+}
+
+.main-menu-sub-li-under-li{
+    background-color: #0d6efd;
+    display: none;
+    position: absolute;
+    padding-top:14px ;
+    /* padding-top: 15px; */
+    /* width: 100px; */
+    left: 149px;
+}
+
+.main-menu-sub-li-under-li-li{
+    padding: 8px 15px;
+    font-size: 15px;
+    list-style: none;
+}
+.main-menu-sub-li-under-li-li:hover{
+    background-color: red;
+    color: white;
+}
+
+.main-menu-sub-li-under-li-second{
+    left: 291px;
+    padding-bottom:14px ;    
+    
+}

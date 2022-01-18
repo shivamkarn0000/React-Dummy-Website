@@ -1,0 +1,71 @@
+
+.marquee__content{
+animation-play-state: paused;
+}
+
+.animation-logo{
+   vertical-align:middle;
+   padding: 0px 4px;
+}
+
+.animation-logo-content{
+   padding: 0 10px;
+}
+
+.animation-logo-content >a {
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+}
+.animation-logo-content >a:hover{
+   color: #007bff;
+}
+.animation-logo:hover{
+   -moz-animation-play-state: paused;
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+}
+h3:hover{
+   -moz-animation-play-state: paused;
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+}
+.pipe{
+   vertical-align: middle;
+   height: 25px;
+   font-weight: bolder;
+   padding:10px 0;
+   padding-left:20px;
+}
+
+.animation-newupdate{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.newupdate-ul{
+   list-style: none;
+}
+
+.newupdate-li >a{
+   text-decoration: none;
+   background-color: #e31215;
+   color: white;
+   padding: 4px 7px;
+   margin-right: 20px;
+   margin-left: 14px;
+   font: bold 14px/20px "helveticaneuebold", sans-serif;
+}
+
+.animation-margin{
+   margin-left: 90vw;
+}
+
+.animation-margin:hover{
+   animation-play-state: paused;
+}
+
+.marquee__content:hover {
+   animation-play-state: paused;
+ }

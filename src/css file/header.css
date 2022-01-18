@@ -1,0 +1,236 @@
+.main-header{
+    /* border: 3px solid brown; */
+    background-size: cover;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+.main-header::before{
+    content: "";
+    z-index: -1;
+    background-image: url('https://www.tourism.gov.np/web/img/mountain-banner-bg.jpg');
+    /* opacity: 0.6; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+}
+
+
+.first-header {
+    /* border: 3px solid rgb(190, 26, 190); */
+}
+
+
+.sub-header{
+    /* border: 3px solid rgb(24, 1, 24); */
+    margin: 4px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-header-ul{
+    display: flex;
+    /* border-color: black; */
+    list-style: none;
+   
+   
+}
+
+.first-header-li{
+ background-color: #0d6efd;
+ color: white;
+ padding: 4px 7px;
+ margin: 2px 4px;
+ border-radius: 4px;
+ font-size: 12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 4px;
+ 
+}
+.first-header-li-puranosite{
+    background-color: red;
+}
+
+.first-header-li >a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-header-li-icon {
+    padding-right: 5px;
+  }
+
+.first-sub-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-sub-header-ul{
+   
+}
+  .search-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.first-sub-header-icon{
+    border-radius: 11px;
+    background-color: rgba(255, 255, 255, 0.781);
+    padding: 7px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.first-sub-header-icon:hover{
+    background-color: white;
+}
+
+.first-sub-header-li{
+ background-color: #0d6efd;
+ color: white;
+ padding: 4px 8px;
+ margin: 2px 4px;
+ border-radius: 4px;
+ font-size: 12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.first-sub-header-li >a{
+ text-decoration: none;
+ color: white;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-header-main{
+
+}
+
+.second-header-sub{
+ margin: 4px 9px;
+ display: flex;
+ align-items: center;
+}
+
+.second-header-img{
+ height: 80px;
+}
+
+.second-header-content{
+
+}
+
+.second-header-ul{
+ padding: 0 8px
+}
+
+.second-header-li{
+ list-style: none;
+ margin-bottom: 5px;
+}
+
+.second-header-li >a {
+ text-decoration: none;
+    
+}
+
+.second-header-li-neplasarkar >a{
+ font-size: 16px;
+ letter-spacing: 0.7px;
+ color: #e31215;
+ font-weight: bold;
+
+}
+
+.second-header-li-saskriti >a{
+ font-size: 20px;
+ letter-spacing: 0.7px;
+ color:#0d6efd;
+ font-weight: bold;
+}
+
+.second-header-li-sihadarbar >a{
+ font-size: 13px;
+ color: #808080;
+}
+
+.third-header-main{
+
+}
+
+.third-header-sub{
+
+}
+
+.third-header-email{
+
+}
+
+.third-header-location{
+
+}
+
+.third-header-li{
+ list-style: none;
+ display: flex;
+ align-items: center;
+}
+
+.third-header-li >a {
+ text-decoration: none;
+ font-size: 16px;
+ letter-spacing: 0.7px;
+ font-weight: bold;
+ color: black;
+ font-family: 'Outfit', sans-serif;
+}
+
+.third-header-li-icon{
+ padding-right: 5px;
+}
+
+.fourth-header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth-header-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fourth-header-nepalimg-sub{
+    height: 50px;
+    width: 50px;
+}
+
+.fourth-header-sub-para{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+
+.fifth-header-nepalflag-sub-img{
+    height: 80px;
+}
+
+.fifth-header-nepalflag{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-menu-hambergar{
+    display: none;
+}

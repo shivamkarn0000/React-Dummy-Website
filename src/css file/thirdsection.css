@@ -1,0 +1,57 @@
+.e-portal-main-main{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 4px;
+    column-gap: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+    
+}
+.e-portal-main{
+    background-color: #0d6efd;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    
+}
+.e-portal-main:hover{
+    background-color:red;
+}
+.e-portal-main1{
+    grid-column-start:1;
+    grid-column-end:5;
+    /* height: 40px; */
+}
+.e-portal{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 14px;
+    width: 75px;
+    font-size: calc(1rem + 0.4vw);
+    color: #343a40;
+    background: #ffc107;
+    padding: 4px 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.e-portal-li{
+    list-style: none;
+}
+
+.e-portal-li >a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    border: none;
+}
+
+.e-portal-icon{
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 5px;
+}

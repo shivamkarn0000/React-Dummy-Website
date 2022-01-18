@@ -1,0 +1,30 @@
+.firstsection-main-container{
+    margin-bottom: 1rem;
+}
+.firstsection-first-container{     
+    padding: 0.15rem 1.25rem;
+    background-color: #0d6efd;
+    border-radius: .25rem;
+    margin-left: 14px;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstsection-first-container_a{    
+    text-decoration: none;
+    color:white;
+}
+.firstsection-button-icon{
+    font-size: 25px;
+    padding: 9px 9px;
+    color: #cbc9c9;
+    cursor: pointer;
+}
+.firstsection-button-icon:hover{
+    color: #222222;
+}
+.firstsection-hidden-menu{
+    display: none;
+  
+}
